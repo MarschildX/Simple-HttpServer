@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+         <meta http-equiv="comtent-type" content ="text/html; charset=utf-8">
+         <style type="text/css">
+             #title{
+             	border:0;
+             	background:lightblue;
+             	margin:auto;
+             }
+             .clear{
+             	text-decoration:none;
+             }
+             #logo{
+             	border:0;
+             	background:pink;
+             	margin-left:0;
+             	margin-right:auto;
+             	width:70px;
+             	height:40px;
+
+             }
+         </style>
+         <style type="text/css">
+            .img-wrap{
+            width:900px;
+            height:250px;
+            }
+            img{
+              float:left;
+              width:200px;
+              height:200px;
+            }
+          </style>
+        <style type="text/css">
+            .cut{
+                height:200px;
+            }
+        </style>
+    </head>
+    <body onLoad="scrollTo(0,0)">
+        <title>方旭    2016150051</title>
+        <div id="logo" align="center" >Sophon</div>
+        <div>
+          <a href="#login" class="clear" text-align="right">登陆</a>
+          <a href="#register" class="clear" align="right">注册</a>
+        </div>
+        <div>
+          <p>The webpage is just for test and I have not designed a lot for it.</p>
+            <p>So maybe it will look a little ugly.</p>
+          <p>I am 方旭，whose IDnumber is 2016150051.</p>
+        </div>
+        <div class="img-wrap">
+          <img src="./image1.jpg" alt="sorry,the picture download failed"></img>
+          <img src="./image2.jpg" alt="oh ,so badly"></img>
+          <img src="./image3.jpg" alt="sorry, couldn't see it"></img>
+        </div>
+        <div>
+            <p>以下是一首短短的轻音乐片段，曲名是：云中的angel</p>
+            <audio controls="controls" style="width:600px;" >
+                <source src="./angel.mp3" type="audio/mp3" />
+                <embed height="100" width="100" src="./angel.mp3" />
+                Your browser does not support this audio format.
+            </audio>
+            <p>本歌曲可供下载，点播放器右边的下载按钮即可</p>
+            <br>
+        </div>
+        <br><br>
+        <div>
+            <p>以下是一个下载链接，下载内容是virtualbox虚拟机，文件大小大约110M</p>
+            <a href="./VirtualBOx.exe">下载VirtualBox</a>
+        </div>
+        <br><br>
+        <div>
+            <form action="Sophon.html" method="POST">
+                <h3><a name="login">在此登陆</a></h3>
+                <br>
+                <p>
+                    Username:
+                    <input type="text" name="username" >
+                </p>
+                <p>
+                    Password :
+                    <input type="text" name="password" >
+                </p>
+                <input type="submit" value="登陆">
+            </form>
+            <form action="Sophon.html" method="POST">
+                <h3><a name="register">在此注册</a></h3>
+                <br>
+                <p>
+                    Username:
+                    <input type="text" name="username">
+                </p>
+                <p>
+                    Password :
+                    <input type="text" name="password">
+                </p>
+                <input type="submit" value="注册">
+                <input type="hidden" name="_method" value="PUT">
+            </form>
+        </div>
+        <div>
+            <p>本服务器程序有两个初始账号：</p>
+            <p>账号1:fangxu     &nbsp&nbsp&nbsp密码:999999</p>
+            <p>账号2:xufang     &nbsp&nbsp&nbsp密码:666666</p>
+            <p>您可以使用这两个账号试着登陆或者自己注册</p>
+        </div>
+        <div class="cut"></div>
+        <div class="cut"></div>
+        <div class="cut"></div>
+
+        <div id="title" align="center">Welcome to Sophon. Here is XuFang's space</br></div>
+    </body>
+</html>
