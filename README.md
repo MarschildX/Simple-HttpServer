@@ -26,7 +26,7 @@ __1. Register account__
   
   ![whether_successful](/images/whether_successful.png)
   
-  If successd, the server background wil add an account record.
+  If successd, the server background will add an account record.
   
   ![after register](/images/after_register.png)
   
