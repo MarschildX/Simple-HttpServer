@@ -11,13 +11,39 @@ Based on the meta-functions above, this simple HttpServer can achieve some basic
 
 I made a simple webpage to test whether __HttpServer__ is available. The simple webpage illustrated follow.
 
-![1]()
+![webpage_whole]()
 
-![2]()
+##### Test some functions
+__1. Register account__
 
-![3]()
+  Before registering, the record of server background.
 
-The images above shows several _http requests_. My test result shows that they can be responded well.
+  ![before register]()
+  
+  Register account:tangmoon and password:888888
+  
+  Then it will jump to another page and notice whether successful.
+  
+  ![whether_successful]()
+  
+  If successd, the server background wil add an account record.
+  
+  ![after register]()
+  
+__2. Play music__
+
+  Press the botton of _play_, normally the music will load successfully and play.
+  
+  ![play_music]()
+  
+__3. Download something__
+
+  We can download some resource such the music above. Click the _download_ botton.
+  
+  ![download_music]()
+  
+
+---
 
 The next step is evaluating the throughput level. I used ___WSL (a Linux sub-system based on Windows)___ and ___Siege (a high-performance http stress testing tool)___ to test this __HttpServer__. Here are my testing results.
 
@@ -25,8 +51,46 @@ The configuration of machine which used for testing.
 
 ![machine configuration]()
 
-__1. 200 concurrency, 100 requests per sec:__ 
+__1. 200 concurrency, 100 requests per sec, test 5 minutes__ 
 
-   ![200con, 100 req/s]()
+  _HttpServer configuration: FixedThreadPool, 8 threads_
+
+  ![200con, 100req/s, 5min]()
+   
+__2. 400 concurrency, 100 requests per sec, test 10 seconds__
+
+  _HttpServer configuration: FixedThreadPool, 8 threads_
+
+  ![400con, 100req/s, 10sec]()
+
+__3. 1000 concurrency, 100 requests per sec, test 10 seconds__
+
+  _HttpServer configuration: FixedThreadPool, 32 threads_
+  
+  ![400con, 100req/s, 10sec]()
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	
