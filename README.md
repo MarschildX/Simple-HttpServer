@@ -11,36 +11,36 @@ Based on the meta-functions above, this simple HttpServer can achieve some basic
 
 I made a simple webpage to test whether __HttpServer__ is available. The simple webpage illustrated follow.
 
-![webpage_whole]()
+![webpage_whole](/images/webpage_whole.png)
 
 ##### Test some functions
 __1. Register account__
 
-  Before registering, the record of server background.
+  Before registering, the account record of server background.
 
-  ![before register]()
+  ![before register](/images/before_register.png)
   
-  Register account:tangmoon and password:888888
+  Register _account: __tangmoon___ and _password: __888888___
   
   Then it will jump to another page and notice whether successful.
   
-  ![whether_successful]()
+  ![whether_successful](/images/whether_successful.png)
   
   If successd, the server background wil add an account record.
   
-  ![after register]()
+  ![after register](/images/after_register.png)
   
 __2. Play music__
 
   Press the botton of _play_, normally the music will load successfully and play.
   
-  ![play_music]()
+  ![play_music](/images/play_music.png)
   
 __3. Download something__
 
   We can download some resource such the music above. Click the _download_ botton.
   
-  ![download_music]()
+  ![download_music](/images/download_music.png)
   
 
 ---
@@ -49,25 +49,25 @@ The next step is evaluating the throughput level. I used ___WSL (a Linux sub-sys
 
 The configuration of machine which used for testing.
 
-![machine configuration]()
+![machine configuration](/images/machine_configuration.png)
 
 __1. 200 concurrency, 100 requests per sec, test 5 minutes__ 
 
   _HttpServer configuration: FixedThreadPool, 8 threads_
 
-  ![200con, 100req/s, 5min]()
+  ![200con, 100req/s, 5min](/images/200con_100req.png)
    
 __2. 400 concurrency, 100 requests per sec, test 10 seconds__
 
   _HttpServer configuration: FixedThreadPool, 8 threads_
 
-  ![400con, 100req/s, 10sec]()
+  ![400con, 100req/s, 10sec](/images/400con_100req.png)
 
 __3. 1000 concurrency, 100 requests per sec, test 10 seconds__
 
   _HttpServer configuration: FixedThreadPool, 32 threads_
   
-  ![1000con, 100req/s, 10sec]()
+  ![1000con, 100req/s, 10sec](/images/1000con_100req.png)
   
 
 
