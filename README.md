@@ -67,7 +67,7 @@ __3. 1000 concurrency, 100 requests per sec, test 10 seconds__
 
   _HttpServer configuration: FixedThreadPool, 32 threads_
   
-  ![400con, 100req/s, 10sec]()
+  ![1000con, 100req/s, 10sec]()
   
 
 
