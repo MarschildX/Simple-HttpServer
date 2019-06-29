@@ -13,7 +13,7 @@ I made a simple webpage to test whether __HttpServer__ is available. The simple 
 
 ![webpage_whole](/images/webpage_whole.png)
 
-##### Test some functions
+### Test some functions
 __1. Register account__
 
   Before registering, the account record of server background.
