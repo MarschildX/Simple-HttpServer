@@ -40,7 +40,6 @@ __3. Download something__
 
   We can download some resource such the music above. Click the _download_ botton.
   
-  ![download_music](/images/download_music.png)
   <img src="/images/download_music.png" height="300" width="500" >
   
 
@@ -54,19 +53,19 @@ The configuration of machine which used for testing.
 
 __1. 200 concurrency, 100 requests per sec, test 5 minutes__ 
 
-  _HttpServer configuration: FixedThreadPool, 8 threads_
+  &emsp;_HttpServer configuration: FixedThreadPool, 8 threads_
 
   &emsp;<img src="/images/200con_100req.png" height="380" width="700" >
    
 __2. 400 concurrency, 100 requests per sec, test 10 seconds__
 
-  _HttpServer configuration: FixedThreadPool, 8 threads_
+  &emsp;_HttpServer configuration: FixedThreadPool, 8 threads_
 
   &emsp;<img src="/images/400con_100req.png" height="380" width="700" >
 
 __3. 1000 concurrency, 100 requests per sec, test 10 seconds__
 
-  _HttpServer configuration: FixedThreadPool, 32 threads_
+  &emsp;_HttpServer configuration: FixedThreadPool, 32 threads_
   
   &emsp;<img src="/images/1000con_100req.png" height="380" width="700" >
   
