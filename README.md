@@ -11,7 +11,7 @@ Based on the meta-functions above, this simple HttpServer can achieve some basic
 
 I made a simple webpage to test whether __HttpServer__ is available. The simple webpage illustrated follow.
 
-![webpage_whole](/images/webpage_whole.png)
+<img src="/images/webpage_whole.png" height="410" width="700" >
 
 ### Test some functions
 __1. Register account__
