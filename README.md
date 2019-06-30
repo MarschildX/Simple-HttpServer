@@ -18,29 +18,30 @@ __1. Register account__
 
   Before registering, the account record of server background.
 
-  ![before register](/images/before_register.png)
+  <img src="/images/before_register.png" height="130" width="450" >
   
   Register _account: __tangmoon___ and _password: __888888___
   
   Then it will jump to another page and notice whether successful.
   
-  ![whether_successful](/images/whether_successful.png)
+  <img src="/images/whether_successful.png" height="410" width="700" >
   
   If successd, the server background will add an account record.
   
-  ![after register](/images/after_register.png)
+  <img src="/images/after_register.png" height="130" width="450" >
   
 __2. Play music__
 
   Press the botton of _play_, normally the music will load successfully and play.
   
-  ![play_music](/images/play_music.png)
+  <img src="/images/play_music.png" height="130" width="450" >
   
 __3. Download something__
 
   We can download some resource such the music above. Click the _download_ botton.
   
   ![download_music](/images/download_music.png)
+  <img src="/images/download_music.png" height="300" width="500" >
   
 
 ---
@@ -49,25 +50,25 @@ The next step is evaluating the throughput level. I used ___WSL (a Linux sub-sys
 
 The configuration of machine which used for testing.
 
-![machine configuration](/images/machine_configuration.png)
+<img src="/images/machine_configuration.png" height="380" width="700" >
 
 __1. 200 concurrency, 100 requests per sec, test 5 minutes__ 
 
   _HttpServer configuration: FixedThreadPool, 8 threads_
 
-  ![200con, 100req/s, 5min](/images/200con_100req.png)
+  &emsp;<img src="/images/200con_100req.png" height="380" width="700" >
    
 __2. 400 concurrency, 100 requests per sec, test 10 seconds__
 
   _HttpServer configuration: FixedThreadPool, 8 threads_
 
-  ![400con, 100req/s, 10sec](/images/400con_100req.png)
+  &emsp;<img src="/images/400con_100req.png" height="380" width="700" >
 
 __3. 1000 concurrency, 100 requests per sec, test 10 seconds__
 
   _HttpServer configuration: FixedThreadPool, 32 threads_
   
-  ![1000con, 100req/s, 10sec](/images/1000con_100req.png)
+  &emsp;<img src="/images/1000con_100req.png" height="380" width="700" >
   
 
 
