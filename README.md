@@ -11,14 +11,14 @@ Based on the meta-functions above, this simple HttpServer can achieve some basic
 
 I made a simple webpage to test whether __HttpServer__ is available. The simple webpage illustrated follow.
 
-<img src="/images/webpage_whole.png" height="410" width="700" >
+<div align=center><img src="/images/webpage_whole.png" height="410" width="700"/></div>
 
 ### Test some functions
 __1. Register account__
 
   Before registering, the account record of server background.
 
-  <img src="/images/before_register.png" height="130" width="450" >
+  <div align=center><img src="/images/before_register.png" height="130" width="450" ></div>
   
   Register _account: __tangmoon___ and _password: __888888___
   
