@@ -13,7 +13,7 @@ I made a simple webpage to test whether __HttpServer__ is available. The simple 
 
 <div align=center><img src="/images/webpage_whole.png" height="410" width="700"/></div>
 
-## Test some functions
+## Test functions
 __1. Register account__
 
   Before registering, the account record of server background.
@@ -43,8 +43,7 @@ __3. Download something__
   <div align=center><img src="/images/download_music.png" height="300" width="500" ></div>
   
 
----
-
+## Test throughput level
 The next step is evaluating the throughput level. I used ___WSL (a Linux sub-system based on Windows)___ and ___Siege (a high-performance http stress testing tool)___ to test this __HttpServer__. Here are my testing results.
 
 The configuration of machine which used for testing.
